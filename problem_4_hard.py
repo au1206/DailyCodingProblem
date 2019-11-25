@@ -21,10 +21,9 @@ def firstMissingPositive(data):
         if l[el] == 0:
             return el"""
 
+
 # space complexity : O(1)
 # time complexity: O(n)
-
-
 def firstMissingPositive(data):
     if len(data) == 0:
         return None
